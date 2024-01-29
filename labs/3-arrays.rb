@@ -18,13 +18,21 @@ my_shopping_list = ["milk", "eggs", "bacon", "apples", "kombucha", "dates"]
 # Store Jared's list
 jared_shopping_list = ["beer", "cookies", "apples", "eggs", "kefir"]
 
-#Algorithm
+# Algorithm
 combined_shopping_list = my_shopping_list + jared_shopping_list
 sorted_combined_list = combined_shopping_list.sort
 sorted_uniques_combined_list = sorted_combined_list.uniq
 
-#Output
-puts sorted_uniques_combined_list
+# Output
+puts "Buy #{sorted_uniques_combined_list[0]}"
+puts "Buy #{sorted_uniques_combined_list[1]}"
+puts "Buy #{sorted_uniques_combined_list[2]}"
+puts "Buy #{sorted_uniques_combined_list[3]}"
+puts "Buy #{sorted_uniques_combined_list[4]}"
+puts "Buy #{sorted_uniques_combined_list[5]}"
+puts "Buy #{sorted_uniques_combined_list[6]}"
+puts "Buy #{sorted_uniques_combined_list[7]}"
+puts "Buy #{sorted_uniques_combined_list[8]}"
 
 
 # HINTS
