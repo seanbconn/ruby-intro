@@ -42,17 +42,31 @@
 # Elsif Conditional Logic
 
 # Input
-my_team_score = 4
-opponent_team_score = 5
+# my_team_score = 4
+# opponent_team_score = 5
 
-if my_team_score > opponent_team_score
-    puts "We win!"
-elsif my_team_score == opponent_team_score
-    puts "We tied!"
-else
-    puts "We lost!"
-end
+# if my_team_score > opponent_team_score
+#     puts "We win!"
+# elsif my_team_score == opponent_team_score
+#     puts "We tied!"
+# else
+#     puts "We lost!"
+# end
 
+# ======================================
 
 # Combining Expressions
+# Use syntax &&
 
+#Input
+temperature = 31
+precip = 60
+
+#Algorithm
+# if temperature > 60 && precip == 0
+#     puts "It's nice outside!"
+# elsif temperature < 60 && precip < 50
+#     puts "It is cold but there should not be precipitation"
+# else
+#     puts "It's bad weather out there!"
+# end
