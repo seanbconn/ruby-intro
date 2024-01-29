@@ -12,10 +12,19 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
-my_shopping_list = ["milk", "eggs", "bacon"]
-jared_shopping_list = ["beer", "cookies", "apples"]
+# Store my list
+my_shopping_list = ["milk", "eggs", "bacon", "apples", "kombucha", "dates"]
+
+# Store Jared's list
+jared_shopping_list = ["beer", "cookies", "apples", "eggs", "kefir"]
+
+#Algorithm
 combined_shopping_list = my_shopping_list + jared_shopping_list
-puts combined_shopping_list.sort
+sorted_combined_list = combined_shopping_list.sort
+sorted_uniques_combined_list = sorted_combined_list.uniq
+
+#Output
+puts sorted_uniques_combined_list
 
 
 # HINTS
