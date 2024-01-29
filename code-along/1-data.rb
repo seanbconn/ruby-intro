@@ -17,3 +17,24 @@
 # Combine strings and variables
 
 # String manipulation
+
+# # Put the number 2 on screen
+
+# puts 2
+
+# # Put the number 5 on screen
+
+# puts 5
+
+# # Put our favorite food on screen
+
+# puts "tacos"
+
+# True and False values
+
+# puts true
+# puts false
+
+# Nothing
+
+# puts nil
