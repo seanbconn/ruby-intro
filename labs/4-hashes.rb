@@ -30,3 +30,15 @@ bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
 # puts bitcoin_data
+
+# Dig through the bitcoin_data hash to get the conversion rate
+rate = bitcoin_data ["bpi"]["USD"]["rate_float"]
+
+# Put the conversion rate on the screen
+puts "1 BTC = #{rate} USD"
+
+# Multiple the conversion rate by the number of CTC to get the value in USD
+value_in_USD = rate * bitcoin
+
+#Write out the output
+puts "You have #{value_in_USD} worth of bitcoin!"
