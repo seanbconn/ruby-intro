@@ -18,12 +18,12 @@ bens_foods = ["kale", "sticks", "berries"]
 favorite_foods.push ["burgers"]
 
 # combine my foods and Ben's foods into one list
-# combined_foods = favorite_foods + bens_foods
+combined_foods = favorite_foods + bens_foods
+puts combined_foods.length
 
-combined_favorites = [favorite_foods, bens_foods]
-
+#combined_favorites = [favorite_foods, bens_foods]
 # Display the output
-puts combined_favorites[1][0]
+# puts combined_favorites[1][0]
 
 # Count the number of favorite foods I have 
 # favorite_foods = ["tacos", "pizza", "ice cream"]

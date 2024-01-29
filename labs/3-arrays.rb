@@ -12,6 +12,12 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+my_shopping_list = ["milk", "eggs", "bacon"]
+jared_shopping_list = ["beer", "cookies", "apples"]
+combined_shopping_list = my_shopping_list + jared_shopping_list
+puts combined_shopping_list.sort
+
+
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
